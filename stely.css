@@ -138,4 +138,6 @@ div {
   transform: rotate(45deg);
 }button {
   transition: background-color 0.3s ease;
+}.cartao.active .cartao__conteudo {
+    transform: rotateY(180deg);
 }

@@ -240,4 +240,20 @@ criaCartao(
 
 }function criaCartao (categoria, pergunta, resposta) {
     console.log(categoria, pergunta, resposta)
+}let respostaEstaVisivel = falsefunction viraCartao() {
+    respostaEstaVisivel = !respostaEstaVisivel
+}function viraCartao() {
+    respostaEstaVisivel = !respostaEstaVisivel
+    cartao.classList.toggle('active', respostaEstaVisivel)
+}function viraCartao() {
+    respostaEstaVisivel = !respostaEstaVisivel
+    cartao.classList.toggle('active', respostaEstaVisivel)
 }
+cartao.addEventListener('click', viraCartao)let respostaEstaVisivel = falsefunction viraCartao(){
+    respostaestaVisivel = !respostaEstaVisivel
+}.cartao.active .cartao__conteudo {
+    transform: rotateY(180deg);
+}function viraCartao() {
+    respostaEstaVisivel = !respostaEstaVisivel
+    cartao.classList.toggle('active', respostaEstaVisivel)
+}cartao.addEventListener('click', viraCartao)
